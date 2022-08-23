@@ -1,0 +1,36 @@
+#container{
+background-color: violet;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 20px;
+}
+
+#header{
+    height: 80px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-inline-start: 50px;
+    
+    h1{
+        color: #00e0ff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+    img{
+        height: 50px;
+
+    }
+}
+button{
+background-color: #520a83;
+width: 256px;
+height: 59px;
+color: white
+
+
+}
