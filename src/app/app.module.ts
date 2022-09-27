@@ -10,8 +10,7 @@ import { SignInComponent } from './public/pages/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SignInComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
