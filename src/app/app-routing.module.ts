@@ -14,7 +14,13 @@ const routes: Routes = [
   {
     path: "signin",
     loadChildren: () => import('./public/pages/sign-in/sign-in.module').then(m=>m.SignInModule)
+  },
+  {
+
+    path: "logon",
+    loadChildren: () => import('./public/pages/contacts/contacts.module').then(m=>m.ContactsModule)
   }
+  
 ];
 
 

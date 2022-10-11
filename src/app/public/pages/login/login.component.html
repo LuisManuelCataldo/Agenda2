@@ -6,11 +6,12 @@
     <div id="texto">
         <p>Usuario: <input type="text" name="Usuario"/></p>      
         <p>Contraseña: <input type="text" name="Contraseña"/></p>          
-        <button id="logon">Ingresar</button>
+        <!-- <button id="logon">Ingresar</button> -->
+        <button id="logon" [routerLink]="['/logon']">Ingresar</button>
     </div>
 
     <div id="menu">
-        <button>Inicio</button>
+        <button  [routerLink]="['']"   >Inicio</button>
         <button>Ayuda</button>
         <button>Cerrar Sesión</button>           
     </div>
