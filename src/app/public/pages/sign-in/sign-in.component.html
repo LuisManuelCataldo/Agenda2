@@ -1,32 +1,33 @@
-<p>sign-in works!</p>
 <div id="header">
-    <h1>SIGN-IN</h1>
-    
+  <h1>SIGN-IN</h1>
+</div>
+
+<div id="container">
+  <div id="texto">
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" id="contraseña" name="contraseña" required />
+
+      <button
+        type="submit"
+        [disabled]="formularioValido"
+        [routerLink]="['/logon']"
+      >
+        Registrarse
+      </button>
+    </form>
   </div>
-  
-  
-  
-  <div id="container">
-    
-    <div id="texto">
-      <button>Nombre</button>
-      <button></button>
-      <button>Apellido</button>
-      <button></button>
-      <button>Email</button>
-      <button></button>
-      <button>Contraseña</button>
-      <button></button>
-      <button>Registrarse</button>
-      <button></button>
-      
-    </div>
-  
-    <div id="menu">
-      <button [routerLink]="['']" >Inicio</button>
-      <button>Ayuda</button>
-           <button>Cerrar Sesión</button>
-           
-    </div>
-    
-  </div>    
+
+  <div id="menu">
+    <button [routerLink]="['']">Inicio</button>
+  </div>
+</div>

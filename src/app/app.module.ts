@@ -5,20 +5,12 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeRoutingModule } from './public/pages/home/home-routing.module';
-import { SignInComponent } from './public/pages/sign-in/sign-in.component';
-import { ContactCardComponent } from './public/components/contact-card/contact-card.component';
-import { EditableInputComponent } from './public/components/editable-input/editable-input.component';
+import { UserDetailsComponent } from './public/components/user-details/user-details.component';
+
 @NgModule({
-  declarations: [
-    AppComponent,
-    EditableInputComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
+  declarations: [AppComponent, UserDetailsComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

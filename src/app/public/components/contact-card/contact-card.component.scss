@@ -1,36 +1,48 @@
 #main-contacts {
-
-    margin: 10px 0px 10px 9px;
-
+  margin: 10px 0px 10px 9px;
 }
-.card-dialog{
-    float: left;
-    width: 350px;
-    height: 200px;
-    vertical-align: top;
-    background-color: white;
-    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
-    margin: 10px;
-    padding: 10px 20px 10px 20px ;
+.card-dialog {
+  float: left;
+  width: 350px;
+  height: 200px;
+  vertical-align: top;
+  background-color: white;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
 }
 .profile-picture {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    float: left;
-    border: solid 1px;
-    height: 80px;
-    width: 80px;
-    margin: 20px 10px 10px 0;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  float: left;
+  border: solid 1px;
+  height: 80px;
+  width: 80px;
+  margin: 20px 10px 10px 0;
 }
 .card-dialog > p {
-    margin-left: 100px;
-
+  margin-left: 100px;
 }
 .card-dialog:active {
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.664);
-    transition-delay: 0s0; 
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.664);
+  transition-delay: 0s0;
+}
+
+/* Botón */
+button {
+  padding: 5px 10px; /* Reduce el espacio interno (padding) */
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+  color: #fff;
+  background-color: rgb(10, 1, 91); /* Color azul */
+  border: none;
+  border-radius: 4px; /* Mantiene bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(30, 10, 211); /* Azul más oscuro al pasar el mouse */
 }

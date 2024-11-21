@@ -1,16 +1,6 @@
 <body id="header">
+  <h1>Lista de Contactos</h1>
 
-<h1>Lista de Contactos</h1>
-
-  <app-contact-card
-*ngFor="let Contact of contacts"
-[contacts]="Contact"
->
-
-
- </app-contact-card>
- 
-
-
-
- </body> 
+  <app-contact-card *ngFor="let Contact of contacts" [contacts]="Contact">
+  </app-contact-card>
+</body>

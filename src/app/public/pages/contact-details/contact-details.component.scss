@@ -1,0 +1,61 @@
+#header {
+  height: 80px;
+  background-color: rgb(10, 1, 91);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-inline-start: 50px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: beige;
+  font-family: Verdana, sans-serif;
+}
+
+/* Contenedor del formulario */
+#form-container {
+  display: flex;
+  justify-content: center; /* Centra el formulario horizontalmente */
+  align-items: flex-start;
+  margin-top: 50px; /* Espacio entre el encabezado y el formulario */
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos verticalmente */
+  align-items: center; /* Centra los elementos dentro del formulario */
+  gap: 15px; /* Espacio entre los campos */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo del formulario */
+  padding: 20px;
+  background-color: #f9f9f9; /* Color de fondo del formulario */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Asegura que los componentes ocupen todo el ancho del formulario */
+app-editable-input {
+  width: 100%;
+}
+
+/* Estilos para los campos dentro de app-editable-input */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Coloca la etiqueta y el input verticalmente */
+  width: 100%;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+}

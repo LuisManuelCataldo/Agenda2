@@ -1,6 +1,6 @@
-#header{
+#header {
   height: 80px;
-  background-color: purple;
+  background-color: rgb(10, 1, 91);
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
@@ -8,71 +8,58 @@
   padding-bottom: 20px;
   border-radius: 10px;
 
-  h1{
-      color:beige;
-      font-family: Verdana, sans-serif;
-      }
+  h1 {
+    color: beige;
+    font-family: Verdana, sans-serif;
+  }
 
-  img{
-      height: 90px;
-      border-radius: 10px;
-      padding-right: 50px;
+  img {
+    height: 90px;
+    border-radius: 10px;
+    padding-right: 50px;
   }
 }
 
-#container{
-  background-color: teal;
-  height: 100vh;
+#container {
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-radius: 10px;
-  
 
-  #menu{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 21px;
-      padding-right: 20px;
-}
+  #menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+    padding-right: 20px;
+  }
 
-  button{
-      background-color: purple;
-      width: 256px;
-      height: 59px;
-      font-weight: bold;
-      font-family: Verdana, sans-serif;
-      color: BEIGE;
-      border-radius: 10px;
-      border-color: #FFF5E1;
-
-}
+  button {
+    background-color: rgb(10, 1, 91);
+    width: 256px;
+    height: 59px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    color: BEIGE;
+    border-radius: 10px;
+    border-color: #fff5e1;
+  }
   button:hover {
-  background-color: #FFF5E1;
-  transition: 0.7s;
-}
+    background-color: #fff5e1;
+    transition: 0.7s;
+  }
 
-  #texto{
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      padding-left: 100px
-      }
-  h3{
-      color: #FFF5E1;
-      font-family: Georgia, serif;
-      font-size: 30px;
+  #texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+  }
+  h3 {
+    color: rgb(10, 1, 91);
+    font-family: Georgia, serif;
+    font-size: 30px;
   }
 }
-
-
-
-
-
-
-
-
-
-

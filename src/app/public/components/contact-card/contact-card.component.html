@@ -1,8 +1,9 @@
 <div id="main-contacts">
-    <div class="card-dialog" id="card-dialog-one">
-        <div class="profile-picture"></div>
-        <h3>{{contacts.firstName}}   {{contacts.lastName}}</h3>
-        <p><strong>Email:</strong>{{contacts.email}}</p>
-        <p><strong>Telefono:</strong>{{contacts.phoneNumber}}</p>
-    </div>
+  <div class="card-dialog" id="card-dialog-one">
+    <div class="profile-picture"></div>
+    <h3>{{ contacts.firstName }} {{ contacts.lastName }}</h3>
+    <p><strong>Email:</strong> {{ contacts.email }}</p>
+    <p><strong>Teléfono:</strong> {{ contacts.phoneNumber }}</p>
+    <button [routerLink]="['/contacts-details']">Editar Contacto</button>
+  </div>
 </div>
